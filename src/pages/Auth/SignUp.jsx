@@ -59,7 +59,7 @@ function SignUp() {
   const passwordValidation = {
     hasMinLength: formData.password.length >= 8,
     hasLowerUpper: /[a-z]/.test(formData.password) && /[A-Z]/.test(formData.password),
-    hasSpecial: /[!@#$%^&*(),.?":{}|<>\-]/.test(formData.password)
+    hasSpecial: /[!@#$%^&*(),.?":{}|<>-]/.test(formData.password)
   };
 
   const handleSubmit = (e) => {
