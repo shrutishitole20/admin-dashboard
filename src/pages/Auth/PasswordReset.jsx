@@ -8,7 +8,7 @@ const PasswordReset = () => {
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
   const [isLoading, setIsLoading] = useState(false);
-  const [errors, setErrors] = useState({});
+  const [errors] = useState({});
 
   const handleEmailSubmit = (e) => {
     e.preventDefault();
