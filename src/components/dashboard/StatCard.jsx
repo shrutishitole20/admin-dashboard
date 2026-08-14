@@ -1,5 +1,4 @@
 import React from 'react';
-import Badge from '../common/Badge';
 
 const StatCard = ({ title, value, icon: Icon, trend, trendValue, className = '' }) => {
   const isPositive = trend === 'up';
