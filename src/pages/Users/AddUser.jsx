@@ -12,6 +12,7 @@ const AddUser = () => {
     role: 'user',
     status: 'active',
   });
+const [errors] = useState({});
 
 
   const handleChange = (e) => {
